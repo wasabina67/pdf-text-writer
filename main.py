@@ -1,5 +1,12 @@
+def add_text_to_pdf():
+    pass
+
+
 def main():
-    print("Hello from pdf-text-writer!")
+    try:
+        add_text_to_pdf()
+    except Exception as e:
+        print(e)
 
 
 if __name__ == "__main__":
